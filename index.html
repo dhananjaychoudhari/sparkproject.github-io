@@ -1,14 +1,14 @@
 <?php
-    include "header.html";
+    include "header.php";
 ?>
 <?php
 if(isset($_POST['send']))
 {
-header('location:transfermoney.html');
+header('location:transfermoney.php');
 }
 if(isset($_POST['history']))
 {
-header('location:transactionhistory.html');
+header('location:transactionhistory.php');
 }
 ?>
 <!DOCTYPE html>
@@ -31,7 +31,7 @@ header('location:transactionhistory.html');
                         <h2>Welcome</h2>
                     </div>
                     <button name="history">Transfer History</button>
-                <a href="transfermoney.html"><button name="send">Send Money</button></a>
+             <button name="send">Send Money</button>
             </form>
         </div>
     </div>
