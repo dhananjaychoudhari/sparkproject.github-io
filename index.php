@@ -1,4 +1,10 @@
-<?php
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home_style.css">
+   <?php
     include "header.php";
 ?>
 <?php
@@ -11,11 +17,6 @@ if(isset($_POST['history']))
 header('location:transactionhistory.php');
 }
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home_style.css">
 </head>
 <body class="main-body">
     <div class="flex-container-background">
