@@ -31,7 +31,7 @@ header('location:transactionhistory.php');
                     <div >
                         <h2>Welcome</h2>
                     </div>
-                    <a href="transactionhistory.html">Transaction history</a>
+                    <button name="history">Transfer History</button>
              <button name="send">Send Money</button>
             </form>
         </div>
